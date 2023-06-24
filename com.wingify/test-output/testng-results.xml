@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[It's logined using valid username and password]]>
+    </line>
+    <line>
+      <![CDATA[with a empty username and password test field it couldn't login]]>
+    </line>
+    <line>
+      <![CDATA[checked for valid username and wrong password]]>
+    </line>
+    <line>
+      <![CDATA[checked for wrong username and valid password]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-24T11:36:35 IST" name="Default suite" finished-at="2023-06-24T11:36:53 IST" duration-ms="17817">
+    <groups>
+    </groups>
+    <test started-at="2023-06-24T11:36:35 IST" name="Default test" finished-at="2023-06-24T11:36:53 IST" duration-ms="17817">
+      <class name="com.wingify.testscript.LoginSecnario">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.wingify.testscript.LoginSecnario@431cd9b2]" started-at="2023-06-24T11:36:35 IST" name="openBrowser" finished-at="2023-06-24T11:36:50 IST" duration-ms="14642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validUnPwd()[pri:0, instance:com.wingify.testscript.LoginSecnario@431cd9b2]" started-at="2023-06-24T11:36:50 IST" name="validUnPwd" finished-at="2023-06-24T11:36:52 IST" duration-ms="1450" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[It's logined using valid username and password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUnPwd -->
+        <test-method signature="emptyUN_Pwd()[pri:1, instance:com.wingify.testscript.LoginSecnario@431cd9b2]" started-at="2023-06-24T11:36:52 IST" name="emptyUN_Pwd" finished-at="2023-06-24T11:36:52 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[with a empty username and password test field it couldn't login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emptyUN_Pwd -->
+        <test-method signature="validUN_wrongPass()[pri:2, instance:com.wingify.testscript.LoginSecnario@431cd9b2]" started-at="2023-06-24T11:36:52 IST" name="validUN_wrongPass" finished-at="2023-06-24T11:36:53 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[checked for valid username and wrong password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUN_wrongPass -->
+        <test-method signature="wromgUN_validPass()[pri:3, instance:com.wingify.testscript.LoginSecnario@431cd9b2]" started-at="2023-06-24T11:36:53 IST" name="wromgUN_validPass" finished-at="2023-06-24T11:36:53 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[checked for wrong username and valid password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wromgUN_validPass -->
+      </class> <!-- com.wingify.testscript.LoginSecnario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
